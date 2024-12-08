@@ -1,0 +1,59 @@
+{
+  "Delivery": [
+    {
+      "address": "bpl",
+      "contact": 123,
+      "rec_address": "bpl",
+      "rec_contact": 344,
+      "pc_weight": "2kg",
+      "pc_des": "hello",
+      "es_cost": 10,
+      "del_op": "Standard",
+      "id": "983f"
+    },
+    {
+      "id": "eba6",
+      "address": "bpl",
+      "contact": "12331",
+      "rec_address": "indire",
+      "rec_contact": "98776",
+      "pc_weight": "23",
+      "pc_des": "adsaffs",
+      "es_cost": "10",
+      "del_op": "standard"
+    },
+    {
+      "id": "b3f4",
+      "address": "bpl",
+      "contact": "12331",
+      "rec_address": "indire",
+      "rec_contact": "98776",
+      "pc_weight": "23",
+      "pc_des": "helllo",
+      "es_cost": "20",
+      "del_op": "express"
+    },
+    {
+      "id": "2631",
+      "address": "bpl",
+      "contact": "12331",
+      "rec_address": "indire",
+      "rec_contact": "98776",
+      "pc_weight": "23",
+      "pc_des": "siddarth",
+      "es_cost": "30",
+      "del_op": "overnight"
+    },
+    {
+      "id": "2c99",
+      "address": "bpl",
+      "contact": "12331",
+      "rec_address": "indire",
+      "rec_contact": "98776",
+      "pc_weight": "23",
+      "pc_des": "helllo",
+      "es_cost": "20",
+      "del_op": "express"
+    }
+  ]
+}

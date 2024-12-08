@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Options</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Select Payment Method</h1>
+    <form action="#" class="payment-form">
+      <!-- Cash on Delivery -->
+      <div class="payment-option">
+        <input type="radio" id="cod" name="payment-method" value="cash-on-delivery" required>
+        <label for="cod">
+          <span class="icon">&#x1F4B5;</span>
+          Cash on Delivery
+        </label>
+      </div>
+      <!-- UPI -->
+      <div class="payment-option">
+        <input type="radio" id="upi" name="payment-method" value="upi">
+        <label for="upi">
+          <span class="icon">&#128179;</span>
+          UPI
+        </label>
+      </div>
+      <!-- PhonePe -->
+      <div class="payment-option">
+        <input type="radio" id="phonepe" name="payment-method" value="phonepe">
+        <label for="phonepe">
+          <span class="icon">&#128241;</span>
+          PhonePe
+        </label>
+      </div>
+      <!-- GPay -->
+      <div class="payment-option">
+        <input type="radio" id="gpay" name="payment-method" value="gpay">
+        <label for="gpay">
+          <span class="icon">&#128180;</span>
+          GPay
+        </label>
+      </div>
+      <!-- Submit Button -->
+      <button type="submit" class="btn">Proceed to Pay</button>
+    </form>
+  </div>
+</body>
+</html>
