@@ -54,6 +54,17 @@
       "pc_des": "helllo",
       "es_cost": "20",
       "del_op": "express"
+    },
+    {
+      "id": "b85f",
+      "address": "bhopal",
+      "contact": "123",
+      "rec_address": "indoer",
+      "rec_contact": "12344545",
+      "pc_weight": "7",
+      "pc_des": "hello",
+      "es_cost": "30",
+      "del_op": "overnight"
     }
   ]
 }
