@@ -20,12 +20,20 @@
         h1 {
             color: #007bff;
         }
+        form{
+            width: 100%;
+        }
         .form-label {
             font-weight: bold;
         }
         .form-control, .form-select {
             border-radius: 8px;
             box-shadow: none;
+        }
+        input, select, textarea{
+            padding: 13px 10px;
+            margin: 10px;
+            border: 1px solid gray;
         }
         .btn-primary {
             background-color: #007bff;
@@ -57,9 +65,11 @@
     <div class="container">
         <h1 class="text-center mb-4">New Delivery</h1>
         
-        <div class="row">
+        <div class="row" style="display: flex;justify-content: space-evenly; align-items: center;">
+            
             <!-- Pickup Details Column -->
-        <form action="payment.html" >
+        <div>
+        <form action="payment.html" class="form-control">
             <div class="col-md-3">
                 <div class="card">
                     <div class="card-header">Pickup Details</div>
@@ -130,13 +140,22 @@
                     </div>
                 </div>
             </div>
+            <div class="text-center mt-4">
+                <input type="submit" value="Continue to Payment" onclick="delivery()">
+            </div>
+        </form>
+    </div>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234700.34595446291!2d77.24107430223239!3d23.199639470061168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c428f8fd68fbd%3A0x2155716d572d4f8!2sBhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1733657561505!5m2!1sen!2sin" width="400" height="450" style="border:0; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+        
         </div>
 
         <!-- Continue to Payment Button -->
-        <div class="text-center mt-4">
-            <input type="submit" value="Continue to Payment" onclick="delivery()">
-        </div>
-    </form>
+        
+    
+   
     </div>
 
     <script src="new delivery.js"> </script>
